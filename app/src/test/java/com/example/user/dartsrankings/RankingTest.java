@@ -32,7 +32,11 @@ public class RankingTest {
     }
 
     @Test
-    public void
+    public int canGetPlayerByRank() {
+//        player1.getRanking();
+        assertEquals(0, player1.getRanking());
+    }
+
 
 
 }
